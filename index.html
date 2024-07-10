@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DavyGames</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+
+    <header class="cabecalho">
+        <div class="container">
+            <input type="checkbox" id="menu" class="container__botao">
+            <label for="menu">
+              <span class="cabecalho__menu-hamburguer container__imagem"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu__titulo">Categorias</li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ação e Aventura<img src="assets/icones-menu/AcaoeAventura.svg" alt="Icone de Acao e Aventura"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">RPG<img src="assets/icones-menu/RPG.svg" alt="Icone de RPG"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Esportes e Corrida<img src="assets/icones-menu/EsporteseCorrida.svg" alt="Icone de Esportes e Corrida"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Estratégia e Simulação<img src="assets/icones-menu/EstrategiaeSimulacao.svg" alt="Icone de Estratégia e Simulação"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Terror e Suspense<img src="assets/icones-menu/TerroreSuspense.svg" alt="Icone de Terror e Suspense"></a>
+                </li>
+            </ul>
+            <img class="container__imagem" src="assets/Logo.svg" alt="Logo do DavyGames">
+        </div>
+        <div class="container">
+            <a class="container__imagem" href="#"><img src="assets/Favoritos.svg" alt="Icone de Favoritos"></a>
+            <a class="container__imagem" href="#"><img src="assets/Carrinho.svg" alt="Icone do Carrinho"></a>
+            <a class="container__imagem" href="#"><img src="assets/Perfil.svg" alt="Icone de Perfil"></a>
+        </div>
+    </header>
+
+
+    <section class="banner">
+        <h2 class="banner__titulo">Pronto para a próxima aventura?</h2>
+        <p class="banner__texto">Descubra em nossa biblioteca o jogo perfeito para você!</p>
+        <input class="banner__pesquisa" type="search" placeholder="Qual será o seu próximo desafio?">
+    </section>
+
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">ADIÇÕES RECENTES</h2>
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+            <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/reddead2.svg" alt="Capa do jogo reddead2"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/scorched.svg" alt="Capa do jogo scorched"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/palworld.svg" alt="Capa do jogo palworld"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/cyberpunk2077.svg" alt="Capa do jogo cyberpunk2077"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/doometernal.svg" alt="Capa do jogo doometernal"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/fortnite.svg" alt="Capa do jogo fortnite"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/minecraft.svg" alt="Capa do jogo minecraft"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/left4dead.svg" alt="Capa do jogo left4dead"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/slimerancher.svg" alt="Capa do jogo slimerancher"></div>
+            </div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <h3 class="descricao__inicial">Talvez você também se interesse por...</h3>
+                    <h2 class="descricao__titulo">The Witcher 3: Wild Hunt</h2>
+                    <p class="descricao__texto">Explore um vasto mundo aberto repleto de monstros e mistérios. </p>
+                </div>
+                <img class="card__imagem" src="assets/capas-de-jogos/thewitcher3.svg" alt="Capa do jogo thewitcher3">
+            </div>
+            
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item">
+                        <a href="#"><img src="assets/Favoritos.svg" alt="Icone de Favoritos"></a>
+                    </li>
+                    <li class="botoes__item" >
+                        <a href="#"><img src="assets/Carrinho.svg" alt="Icone de Carrinho"></a>
+                    </li>
+                </ul>
+                <a class="botoes__principal" href="#">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
+            <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/eldenring.svg" alt="Capa do jogo Elden Ring"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/dragonballsparking.svg" alt="Capa do jogo Dragon Ball Sparking"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/devilmaycry.svg" alt="Capa do jogo Devil May Cry 5"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/residentevil4remake.svg" alt="Capa do jogo Resident Evil 4 Remake"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/jojobizarreadventure.svg" alt="Capa do jogo Jojo Bizarre Adventure"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/wukong.svg" alt="Capa do jogo wukong"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/cuphead.svg" alt="Capa do jogo Cuphead"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/godofwarragnarok.svg" alt="Capa do jogo God of War Ragnarok"></div>
+                <div class="swiper-slide"><img src="assets/capas-de-jogos/hifirush.svg" alt="Capa do jogo Hi Fi Rush"></div>
+            </div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+
+
+        <div class="card">
+            <div class="card__descricao">
+                <div class="descricao">
+                    <img class="descricao__estrelas" src="assets/Estrelinhas.svg" alt="Imagem de 5 estrelas">
+                    <h3 class="descricao__inicial">Jogo do Mês</h3>
+                    <h2 class="descricao__titulo">Hades</h2>
+                    <p class="descricao__texto">Enfrente os desafios do submundo e descubra a história de Zagreus.</p>
+                </div>
+                <img class="card__imagem" src="assets/capas-de-jogos/hades.svg" alt="Capa do jogo Hades">
+            </div>
+            
+            <div class="card__botoes">
+                <ul class="botoes">
+                    <li class="botoes__item">
+                        <a href="#"><img src="assets/Favoritos.svg" alt="Icone de Favoritos"></a>
+                    </li>
+                    <li class="botoes__item" >
+                        <a href="#"><img src="assets/Carrinho.svg" alt="Icone de Carrinho"></a>
+                    </li>
+                </ul>
+                <a class="botoes__principal" href="#">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="topicos">
+        <h2 class="topicos__titulo">CATEGORIAS VISITADAS RECENTEMENTE</h2>
+        <ul class="topicos__lista">
+            <li class="topicos__lista__link">
+                <a class="item" href="$">Simulação</a>
+            </li>
+            <li class="topicos__lista__link">
+                <a class="item" href="$">MOBA</a>
+            </li>
+            <li class="topicos__lista__link">
+                <a class="item" href="$">Multiplayer</a>
+            </li>
+            <li class="topicos__lista__link">
+                <a class="item" href="$">Aventura</a>
+            </li>
+            <li class="topicos__lista__link">
+                <a class="item" href="$">FPS</a>
+            </li>
+            <li class="topicos__lista__link">
+                <a class="item" href="$">Esportes</a>
+            </li>
+            <li class="topicos__lista__link">
+                <a class="item" href="$">Indie</a>
+            </li>
+            <li class="topicos__lista__link">
+                <a class="item" href="$">RPG</a>
+            </li>
+        </ul>
+    </section>
+
+
+    <section class="contato">
+        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+        <p class="contato__texto">Atualizações de jogos, novos lançamentos, promoções e outros.</p>
+        <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+    </section>
+
+    
+
+
+    <footer class="rodape">
+        <h2 class="rodape__titulo">DavyGames</h2>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets'
+            },
+        });
+    </script>
+</body>
+
+</html>
