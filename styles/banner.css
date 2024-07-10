@@ -1,5 +1,5 @@
 .banner {
-    background-color: var(--cor-rosa-escuro);
+    background: var(--rosa-degrade);
     color: var(--cor-cinza-claro);
     text-align: center;
     padding: 2.5em 2em;
@@ -31,5 +31,6 @@
     font-weight: 400;
     color: var(--cor-cinza-claro);
     text-align: center;
-    background: url(../assets/icones-banner/Pesquisa.svg) no-repeat;
+    background: url("../assets/icones-banner/Pesquisa.svg") no-repeat;
+    padding-left: 1.6em;
 }

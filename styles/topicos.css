@@ -1,5 +1,5 @@
 .topicos {
-    background-color: var(--cor-rosa-escuro);
+    background: var(--rosa-degrade);
     text-align: center;
     padding: 1.5em 0em;
 }

@@ -16,6 +16,7 @@
     --cor-rosa-brilhante: #FF69B4;
     --cor-hover: #E057A1;
     --cor-active: #C74D8C;
+    --rosa-degrade: linear-gradient(135deg, #290a19 0%, #C71585 50%, #4a001f 100%);
 
     --fonte-principal: "Poppins";
 }
