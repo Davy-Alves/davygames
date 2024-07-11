@@ -40,9 +40,42 @@
                 </li>
             </ul>
             <img class="container__imagem" src="assets/Logo.svg" alt="Logo do DavyGames">
+            <h1 class="container__titulo"><b class="container__titulo--negrito">Davy</b>Games</h1>
         </div>
+
+        <ul class="opcoes">
+            <input type="checkbox" id="opcoes-menu" class="opcoes__botao">
+            <label for="opcoes-menu">
+                <li class="opcoes__item opcoes__categoria">CATEGORIAS</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Ação e Aventura<img src="assets/icones-menu/AcaoeAventura.svg" alt="Icone de Acao e Aventura"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">RPG<img src="assets/icones-menu/RPG.svg" alt="Icone de RPG"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Esportes e Corrida<img src="assets/icones-menu/EsporteseCorrida.svg" alt="Icone de Esportes e Corrida"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Estratégia e Simulação<img src="assets/icones-menu/EstrategiaeSimulacao.svg" alt="Icone de Estratégia e Simulação"></a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Terror e Suspense<img src="assets/icones-menu/TerroreSuspense.svg" alt="Icone de Terror e Suspense"></a>
+                </li>
+            </ul>
+
+            <li class="opcoes__item">
+                <a class="opcoes__link" href="#">FAVORITOS</a>
+            </li>
+            <li class="opcoes__item">
+                <a class="opcoes__link" href="#">MINHA ESTANTE</a>
+            </li>
+        </ul>
         <div class="container">
-            <a class="container__imagem" href="#"><img src="assets/Favoritos.svg" alt="Icone de Favoritos"></a>
+            <a class="container__imagem imagem__favoritos" href="#"><img src="assets/Favoritos.svg" alt="Icone de Favoritos"></a>
             <a class="container__imagem" href="#"><img src="assets/Carrinho.svg" alt="Icone do Carrinho"></a>
             <a class="container__imagem" href="#"><img src="assets/Perfil.svg" alt="Icone de Perfil"></a>
         </div>
@@ -193,8 +226,10 @@
 
 
     <section class="contato">
-        <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
-        <p class="contato__texto">Atualizações de jogos, novos lançamentos, promoções e outros.</p>
+        <div class="contato__conteudo"> 
+            <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+            <p class="contato__texto">Atualizações de jogos, novos lançamentos, promoções e outros.</p>
+        </div>
         <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
     </section>
 

@@ -37,3 +37,19 @@
 .item:active {
     background-color: var(--cor-active);
 }
+
+@media screen and (min-width: 1024px) {
+
+    .topicos__titulo {
+        font-size: 1.5em;
+    }
+
+    .topicos__lista__link {
+        margin: 2.3em 0.5em;
+    }
+
+    .item {
+        font-size: 1.5em;
+    }
+    
+}
